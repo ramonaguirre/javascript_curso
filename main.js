@@ -1,1 +1,2 @@
-console.log("Nuevo mensaje en un nuevo día");
+console.log("Hello World");
+document.write("<h1>Hola Mundo</h1>");
