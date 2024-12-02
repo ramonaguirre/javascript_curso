@@ -63,9 +63,21 @@ switch(typeCard){
 
 // Bucle
 let count = 1;
-while (count <= 10){
+while (count <= 5){
     console.log("Hola Mundo" + " " + count);
     count++;
+}
+
+let names = ['Chavo', 'Chilindrina', 'Quico', 'Don Ramon', 'Popis'];
+console.log(names.length);
+for (let i = 0; i < names.length; i++){
+    console.log(names[i]);
+}
+
+let materias = ['Analisís Matemático 1', 'Arquitectura de Computación', 'Ciencia, Sociedad y Técnologia', 'Introducción a la programación'];
+
+for(let u = 0; u < materias.length; u++){
+    console.log(materias[u]);
 }
 
 /*
