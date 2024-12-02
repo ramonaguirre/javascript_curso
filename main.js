@@ -80,6 +80,14 @@ for(let u = 0; u < materias.length; u++){
     console.log(materias[u]);
 }
 
+function saludar(name2){
+    console.log("Hola " + name2);
+}
+saludar('Pepe');
+saludar('Pipa');
+saludar('Pepa');
+
+
 /*
 //Tipos de datos
 "Hola Mundo" //String
